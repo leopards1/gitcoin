@@ -111,7 +111,7 @@ celestia-appd config chain-id $CELESTIA_CHAIN
 celestia-appd config keyring-backend test
 
 -------------------------------------------------------
-tee $HOME/celestia-appd.service > /dev/null <<EOF
+tee $HOME/celestia-appd.service > /dev/null <<
 [Unit]
   Description=celestia-appd Cosmos daemon
   After=network-online.target
